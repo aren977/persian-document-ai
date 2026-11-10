@@ -1,33 +1,72 @@
-# Persian Document AI Assistant
+# 🇮🇷 Persian Document AI Assistant
 
-A Persian-language AI assistant that allows users to upload PDF and TXT documents and ask questions about their content.
+### An AI-powered Question Answering System for Persian Documents
 
-## Overview
+A Persian-language AI assistant that enables users to upload PDF and TXT documents and ask natural-language questions about their content.
 
-This project uses Retrieval-Augmented Generation (RAG) to retrieve relevant information from uploaded documents and generate answers based on their content.
+Built using **Retrieval-Augmented Generation (RAG)**, semantic search, and Large Language Models (LLMs), this project aims to make information retrieval from Persian documents faster and easier.
 
-## Features
+---
 
-- Upload PDF and TXT documents
-- Ask questions about document content
-- Semantic search for retrieving relevant text
-- Persian language support
-- AI-powered question answering
-- Interactive interface built with Gradio
+## ✨ Features
 
-## Technologies Used
+- 📄 **PDF & TXT Support** – Upload and process PDF and text documents.
+- 💬 **Intelligent Question Answering** – Ask questions about document content.
+- 🔍 **Semantic Search** – Retrieve relevant information using vector embeddings.
+- 🧠 **LLM Integration** – Generate context-aware answers using Qwen 2.5 3B.
+- 🇮🇷 **Persian Language Processing** – Support for Persian text and document content.
+- 🖥️ **Interactive UI** – User-friendly interface powered by Gradio.
 
-- Python
+---
+
+## 🛠️ Technologies & Tools
+
+| Technology | Description |
+|---|---|
+| Python | Core programming language |
+| Qwen 2.5 3B | Large Language Model |
+| FAISS | Vector similarity search |
+| Sentence Transformers | Text embedding generation |
+| Multilingual E5 | Multilingual embeddings |
+| PyMuPDF | PDF text extraction |
+| Hazm | Persian text processing |
+| Gradio | Interactive web interface |
+| Google Colab | Development environment |
+
+---
+
+## ⚙️ How It Works
+
+The system follows a Retrieval-Augmented Generation (RAG) pipeline:
+
+1. **Document Upload:** Users upload PDF or TXT files.
+2. **Text Extraction:** Document content is extracted.
+3. **Text Processing:** Extracted text is prepared for processing.
+4. **Embedding Generation:** Text is converted into numerical vector representations.
+5. **Semantic Retrieval:** FAISS searches for relevant document segments.
+6. **Answer Generation:** Qwen 2.5 3B generates answers based on the retrieved context.
+
+---
+
+## 🚀 Getting Started
+
+### Requirements
+
+- Google Account
 - Google Colab
-- Qwen 2.5 3B
-- FAISS
-- Sentence Transformers
-- Multilingual E5
-- PyMuPDF
-- Hazm
-- Gradio
+- Internet Connection
 
-## Project Structure
+### Run the Project
+
+1. Open `rezome_1.ipynb` using Google Colab.
+2. Execute the notebook cells in order.
+3. Upload a PDF or TXT document.
+4. Enter your question.
+5. Get an AI-generated answer based on the uploaded document.
+
+---
+
+## 📁 Project Structure
 
 ```text
 persian-document-ai/
@@ -36,17 +75,22 @@ persian-document-ai/
 └── README.md
 ```
 
-## How to Run
+---
 
-1. Open `rezome_1.ipynb` in Google Colab.
-2. Run the notebook cells in order.
-3. Upload a PDF or TXT document.
-4. Ask questions about the uploaded document.
+## 🎯 Project Goals
 
-## Purpose
+This project demonstrates practical applications of:
 
-This project demonstrates the use of Large Language Models (LLMs), semantic search, vector databases, and Retrieval-Augmented Generation (RAG) for Persian document question answering.
+- Retrieval-Augmented Generation (RAG)
+- Large Language Models (LLMs)
+- Natural Language Processing (NLP)
+- Semantic Search
+- Vector Databases
+- Persian Text Processing
 
-## Author
+---
 
-Developed as a Machine Learning and AI project.
+## 👨‍💻 Author
+
+**AI & Machine Learning Developer**
+
